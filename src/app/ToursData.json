@@ -1,0 +1,68 @@
+[
+    {
+        "id": "1",
+        "title": "Tanau",
+        "location": "Sumba",
+        "price": "",
+        "Images": "/Images/tour-image-01.jpg",
+        "mainImages": "/Images/tour-image-01-1.jpg"
+    },
+    {
+        "id": "2",
+        "title": "Lapopu",
+        "location": "Sumba",
+        "price": "",
+        "Images": "/Images/tour-image-02.jpg",
+        "mainImages": "/Images/tour-image-02-1.jpg"
+    },
+    {
+        "id": "3",
+        "title": "Prai Ijing",
+        "location": "Sumba",
+        "price": "",
+        "Images": "/Images/tour-image-03.jpg",
+        "mainImages": "/Images/tour-image-03-1.jpg"
+    },
+    {
+        "id": "4",
+        "title": "Mandorak",
+        "location": "Sumba",
+        "price": "",
+        "Images": "/Images/tour-image-04.jpg",
+        "mainImages": "/Images/tour-image-04-1.jpg"
+    },
+    {
+        "id": "5",
+        "title": "Tanggedu",
+        "location": "Sumba",
+        "price": "",
+        "Images": "/Images/tour-image-05.jpg",
+        "mainImages": "/Images/tour-image-05-1.jpg"
+    },
+    {
+        "id": "6",
+        "title": "Ratenggaro",
+        "location": "Sumba",
+        "price": "",
+        "Images": "/Images/tour-image-06.jpg",
+        "mainImages": "/Images/tour-image-06-1.jpg"
+    },
+    {
+        "id": "7",
+        "title": "Hiliwuku",
+        "location": "Sumba",
+        "price": "",
+        "Images": "/Images/tour-image-07.jpg",
+        "mainImages": "/Images/tour-image-07-1.jpg"
+    },
+    {
+        "id": "8",
+        "title": "Weikucara",
+        "location": "Sumba",
+        "price": "",
+        "Images": "/Images/tour-image-08.jpg",
+        "mainImages": "/Images/tour-image-08-1.jpg"
+    }
+    
+
+]
