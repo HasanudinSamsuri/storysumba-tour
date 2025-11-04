@@ -43,20 +43,20 @@ export default function page() {
                 <h2 className="text-6xl font-normal z-10 relative text-white text-center w-full unbounded-font">Package</h2>
                 <ul className="text-white z-10 flex items-center gap-8 section-list">
                     <li className="text-sm relative">
-                        <Link href="#">Home</Link>
+                        <Link href="/">Home</Link>
                     </li>
                     <li className="text-sm relative">
                         <FontAwesomeIcon icon={faAngleRight} className="absolute -left-6 top-0.5"/>
-                        <Link href="#">Package</Link>
+                        <Link href="/Faq">Package</Link>
                     </li>
                 </ul>
       </div>
 
     {/* Testimonial */}
       <div className="Testimonials bg-[#0e0700] px-[2%] sm:px-[8%] lg:px-[12%] py-[50px] lg:py-[90px]" id="Testimonials">
-                      <div className="pb-10 testimonials-content  flex justify-between lg:flex-row gap-3 items-start w-full">
+                      <div className="pb-10 testimonials-content  flex justify-between lg:flex-row gap-3 lg:gap-0 items-start w-full">
                           <h2 className="xl:w-[50%] w-full text-white text-4xl leading-tight unbounded-font">Pilihan Paket Tour Terbaik Untuk Anda</h2>
-                          <div className="xl:w-[40%] w-full">
+                          <div className="xl:w-[50%] w-full">
                               <p className="text-[#ffffff91] pb-5 text-sm">
                                   Kami sangat menghargai waktu anda dan kami siap menawarkan banyak pilihan Paket Tour Terbaik yang bisa anda sesuaikan dengan kebutuhan perjalanan anda.
                               </p>
@@ -73,15 +73,15 @@ export default function page() {
                           spaceBetween={20}
                           slidesPerView={3}
                           breakpoints={{
-                              1199: {slidesPerView: 3},
+                              1199: {slidesPerView: 2},
                               767: {slidesPerView: 2},
-                              575: {slidesPerView: 1},
+                              220: {slidesPerView: 1},
                           }}
                           loop={true}
                           className="cursor-pointer"
                       >
                           <SwiperSlide>
-                              <div className="tst-item bg-[#191919] h-[450px] flex flex-col justify-start rounded-xl py-[50px] lg:py-[90px] px-[2%] sm:px-[8%] lg:px-[12%]">
+                              <div className="tst-item bg-[#191919] h-[350px] flex flex-col justify-start rounded-xl py-[50px] lg:py-[90px] px-[2%] sm:px-[8%] lg:px-[12%]">
                                   <div className="tst-user -flex items-start mb-3">
                                       <Image 
                                           src={User}
@@ -105,7 +105,7 @@ export default function page() {
                           </SwiperSlide>
       
                           <SwiperSlide>
-                              <div className="tst-item bg-[#191919] h-[450px] flex flex-col justify-center rounded-xl py-[50px] lg:py-[90px] px-[2%] sm:px-[8%] lg:px-[12%]">
+                              <div className="tst-item bg-[#191919] h-[350px] flex flex-col justify-center rounded-xl py-[50px] lg:py-[90px] px-[2%] sm:px-[8%] lg:px-[12%]">
                                   <div className="tst-user -flex items-start mb-3">
                                       <Image 
                                           src={User}
@@ -132,7 +132,7 @@ export default function page() {
                           </SwiperSlide>
       
                           <SwiperSlide>
-                              <div className="tst-item bg-[#191919] h-[450px] flex flex-col justify-center rounded-xl py-[50px] lg:py-[90px] px-[2%] sm:px-[8%] lg:px-[12%]">
+                              <div className="tst-item bg-[#191919] h-[350px] flex flex-col justify-center rounded-xl py-[50px] lg:py-[90px] px-[2%] sm:px-[8%] lg:px-[12%]">
                                   <div className="tst-user -flex items-start mb-3">
                                       <Image 
                                           src={User}
@@ -162,7 +162,7 @@ export default function page() {
                           </SwiperSlide>
       
                           <SwiperSlide>
-                              <div className="tst-item bg-[#191919] h-[450px] flex flex-col justify-center rounded-xl py-[50px] lg:py-[90px] px-[2%] sm:px-[8%] lg:px-[12%]">
+                              <div className="tst-item bg-[#191919] h-[350px] flex flex-col justify-center rounded-xl py-[50px] lg:py-[90px] px-[2%] sm:px-[8%] lg:px-[12%]">
                                   <div className="tst-user -flex items-start mb-3">
                                       <Image 
                                           src={User}
@@ -195,7 +195,7 @@ export default function page() {
                           </SwiperSlide>
       
                           <SwiperSlide>
-                              <div className="tst-item bg-[#191919] h-[450px] flex flex-col justify-center rounded-xl py-[50px] lg:py-[90px] px-[2%] sm:px-[8%] lg:px-[12%]">
+                              <div className="tst-item bg-[#191919] h-[350px] flex flex-col justify-center rounded-xl py-[50px] lg:py-[90px] px-[2%] sm:px-[8%] lg:px-[12%]">
                                   <div className="tst-user -flex items-start mb-3">
                                       <Image 
                                           src={User}

@@ -47,11 +47,11 @@ export default function page() {
                 <h2 className="text-6xl font-normal z-10 relative text-white text-center w-full unbounded-font">About</h2>
                 <ul className="text-white z-10 flex items-center gap-8 section-list">
                     <li className="text-sm relative">
-                        <Link href="#">Home</Link>
+                        <Link href="/">Home</Link>
                     </li>
                     <li className="text-sm relative">
                         <FontAwesomeIcon icon={faAngleRight} className="absolute -left-6 top-0.5"/>
-                        <Link href="#">About</Link>
+                        <Link href="/About">About</Link>
                     </li>
                 </ul>
         </div>

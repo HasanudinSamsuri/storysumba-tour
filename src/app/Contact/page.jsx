@@ -12,11 +12,11 @@ export default function page() {
         <h2 className="text-4xl font-normal z-10 relative text-white text-center w-full unbounded-font">Contact</h2>
         <ul className="text-white z-10 flex items-center gap-8 section-list">
             <li className="text-sm relative">
-                <Link href="" className="">Home</Link>
+                <Link href="/" className="">Home</Link>
             </li>
             <li className="text-sm relative">
                 <FontAwesomeIcon icon={faAngleRight} className="absolute -left-6 top-0.5"/>
-                <Link href="#">Contact</Link>
+                <Link href="/Contact">Contact</Link>
             </li>
         </ul>
       </div>
@@ -27,18 +27,15 @@ export default function page() {
             <div className="w-[40%]">
                 <div className="contact-content mb-6">
                     <span className="uppercase text-[#7a7a7a]">Office Address</span>
-                    <p className="text-white mt-3 text-[18px]">
-                       <FontAwesomeIcon icon={faAddressCard} className="text-[22px] text-white"/> Jl. Desa Sawangan No. 11, Nusa Dua, Bali</p>
+                    <p className="text-white mt-3 text-[18px]">Jl. Desa Sawangan No. 11, Nusa Dua, Bali</p>
                 </div>
                 <div className="contact-content mb-6">
                     <span className="uppercase text-[#7a7a7a]">Office Phone Number</span>
-                    <p className="text-white mt-3 text-[18px]">
-                        <FontAwesomeIcon icon={faWhatsapp} className="text-[24px] text-white"/> 0812-8776-3530</p>
+                    <p className="text-white mt-3 text-[18px]">0812-8776-3530</p>
                 </div>
                 <div className="contact-content mb-6">
                     <span className="uppercase text-[#7a7a7a]">Email Address</span>
-                    <p className="text-white mt-3 text-[18px]">
-                        <FontAwesomeIcon icon={faEnvelope} className="text-[22px] text-white"/> booking@sumbastory.com</p>
+                    <p className="text-white mt-3 text-[18px]">booking@sumbastory.com</p>
                 </div>
                 <div className="contact-content">
                     <p className="mt-3 text-[24px] text-white">Follow Our Social Media</p>

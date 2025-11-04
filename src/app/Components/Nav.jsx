@@ -13,6 +13,9 @@ import { faXTwitter } from "@fortawesome/free-brands-svg-icons/faXTwitter";
 import { useEffect, useState } from "react";
 import Link from "next/link";
 
+import Image from "next/image";
+import About1 from "../../../public/Images/logo3.png"
+
 
 export default function Nav() {
     const [isOpen , setIsOpen] = useState(false);
@@ -33,7 +36,7 @@ export default function Nav() {
                 <ul className="hidden lg:flex items-center gap-3 text-[#727272]">
                     <li className="text-sm">
                         <FontAwesomeIcon icon={faPhone} className="pr-1 text-[#8192a0]" />
-                        <span>0812 8776 3530</span>
+                        <span>0812 0123 4567</span>
                     </li>
                     <li className="text-sm">
                         <FontAwesomeIcon icon={faEnvelope} className="pr-1 text-[#8192a0]" />
@@ -71,6 +74,7 @@ export default function Nav() {
                 </div>
 
                 {/* Desktop Menu */}
+                
                 <ul className="nav-menu hidden lg:flex w-full justify-center items-center gap-14 py-5 relative">
                     <li><Link href='/' className="font-medium hover:text-black transition-colors duration-500">Home</Link></li>
                     <li><Link href='/About' className="font-medium text-[#697e8a] hover:text-black transition-colors duration-500">About</Link></li>

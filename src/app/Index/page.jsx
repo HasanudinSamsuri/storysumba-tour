@@ -58,7 +58,7 @@ export default function Index() {
                         Berencana jalan-jalan? Kami akan atur perjalanan Anda dengan tempat terbaik dan anggaran terbaik!
                     </p>
                     <button className="btn bg-white group text-[#193555] hover:bg-[#193555] font-bold px-6 w-auto py-4 rounded-full cursor-pointer transition-colors duration-300 mt-5">
-                            <a href="#Testimonials" className="unbounded-font text-sm xl:text-md uppercase group-hover:text-white transition-colors duration-300 tracking-wider">
+                            <a href="/Faq" className="unbounded-font text-sm xl:text-md uppercase group-hover:text-white transition-colors duration-300 tracking-wider">
                                      Lihat Semua Paket
                             </a>
                         </button>
@@ -115,7 +115,7 @@ export default function Index() {
                         <div className="about-section flex flex-col">
                             <div className="about-heading lg:px-[12%]">
                                 <div className="text-2xl xl:text-4xl font-bold mb-4">Bagaimana Kami Menjadi yang Terbaik</div>
-                                <p className="mb-3 w-[90%] text-[#7a7a7a] text-sm">Kami berkomitmen penuh terhadap pelayanan, kenyamanan dan kepuasan wisatawan yang ingin menikmati keindahan pulau sumba, Kami menyediakan semua kebutuhan yang diperlukan selama trip dan Dengan fasilitas armada Hiace terbaru 2025 dan fasilitas pendukung lainnya kami menjamin perjalanan anda aman, nyaman dan berkesan.</p>
+                                <p className=" w-[90%] text-[#7a7a7a] text-sm">Kami berkomitmen penuh terhadap pelayanan, kenyamanan dan kepuasan wisatawan yang ingin menikmati keindahan pulau sumba, Kami menyediakan semua kebutuhan yang diperlukan selama trip dan Dengan fasilitas armada Hiace terbaru 2025 dan fasilitas pendukung lainnya kami menjamin perjalanan anda aman, nyaman dan berkesan.</p>
                             </div>
                             <div className="about-image mt-8 hidden lg:flex">
                                 <Image src={About1} alt="About-1" className="rounded-r-2xl w-[45%] h-[600px] object-cover absolute left-0"/>
@@ -124,6 +124,7 @@ export default function Index() {
                     </div>
                     <div className="lg:w-[50%]">
                         <div className="bg-black text-white p-6 rounded-2xl flex md:flex-col justify-between md:gap-2">
+                            <div className=" autor-sec">
                             <div className="flex -space-x-3">
                                 <Image src={icons01} alt="icons01" className="w-12 h-12 rounded-full border-2 border-black"/>
                                 <Image src={icons02} alt="icons02" className="w-12 h-12 rounded-full border-2 border-black"/>
@@ -131,6 +132,7 @@ export default function Index() {
                             </div>
                             <div className="customers">
                                 <p className="text-[#7a7a7a]">Kami memberikan pengalaman perjalanan terbaik dengan layanan prioritas dengan harga yang terbaik, layanan cepat </p>
+                            </div>
                             </div>
                         </div>
                         <div className="about-travel">
@@ -151,181 +153,180 @@ export default function Index() {
 
             {/* Testimonial */}
             <div className="Testimonials bg-[#0e0700] px-[2%] sm:px-[8%] lg:px-[12%] py-[50px] lg:py-[90px]" id="Testimonials">
-                <div className="pb-10 testimonials-content  flex justify-between lg:flex-row gap-3 items-start w-full">
+                <div className="pb-10 testimonials-content  flex justify-between lg:flex-row gap-3 lg:gap-0 items-start w-full">
                     <h2 className="xl:w-[50%] w-full text-white text-4xl leading-tight unbounded-font">Pilihan Paket Tour Terbaik Untuk Anda</h2>
-                    <div className="xl:w-[40%] w-full">
+                    <div className="xl:w-[50%] w-full">
                         <p className="text-[#ffffff91] pb-5 text-sm">
                             Kami sangat menghargai waktu anda dan kami siap menawarkan banyak pilihan Paket Tour Terbaik yang bisa anda sesuaikan dengan kebutuhan perjalanan anda.
                         </p>
                         <button className="btn bg-white group text-[#193555] hover:bg-[#193555] font-bold px-6 w-auto py-4 rounded-full cursor-pointer transition-colors duration-300 mt-5">
-                            <a href="#" className="unbounded-font text-sm xl:text-md uppercase group-hover:text-white transition-colors duration-300 tracking-wider">
+                            <a href="/Faq" className="unbounded-font text-sm xl:text-md uppercase group-hover:text-white transition-colors duration-300 tracking-wider">
                             Learn More
                             </a>
                         </button>
                     </div>
                 </div>
 
-     
-                <Swiper
-                    spaceBetween={20}
-                    slidesPerView={3}
-                    breakpoints={{
-                        1199: {slidesPerView: 3},
-                        767: {slidesPerView: 2},
-                        575: {slidesPerView: 1},
-                    }}
-                    loop={true}
-                    className="cursor-pointer"
-                >
-                    <SwiperSlide>
-                        <div className="tst-item bg-[#191919] h-[450px] flex flex-col justify-start rounded-xl py-[50px] lg:py-[90px] px-[2%] sm:px-[8%] lg:px-[12%]">
-                            <div className="tst-user -flex items-start mb-3">
-                                <Image 
-                                    src={User}
-                                    width={30}
-                                    height={30}
-                                    alt="User"
-                                    className="rounded-full"/>
-                            </div>
-                            <div>
-                                <h4 className="unbounded-font text-white font-semibold mb-4">Paket 3 Days 2 Night</h4>
-                            </div>
-                            <p className="text-[#ffffff91]">
-                                Pantai Watumbela,
-                                Bukit Warinding,
-                                Bukit Hiliwuku,
-                                Air Terjun Waimarang,
-                                Pantai Weilakiri,
-                                Kampung Raja Prailiu
-                            </p>
-                        </div>
-                    </SwiperSlide>
-
-                    <SwiperSlide>
-                        <div className="tst-item bg-[#191919] h-[450px] flex flex-col justify-center rounded-xl py-[50px] lg:py-[90px] px-[2%] sm:px-[8%] lg:px-[12%]">
-                            <div className="tst-user -flex items-start mb-3">
-                                <Image 
-                                    src={User}
-                                    width={30}
-                                    height={30}
-                                    alt="User"
-                                    className="rounded-full"/>
-                            </div>
-                            <div>
-                                <h4 className="unbounded-font text-white font-semibold mb-4">Paket 4 Days 3 Night</h4>
-                            </div>
-                            <p className="text-[#ffffff91]">
-                                Pantai Watumbela,
-                                Bukit Warinding,
-                                Bukit Hiliwuku,
-                                Air Terjun Waimarang,
-                                Pantai Weilakiri
-                                Air terjun Tanggedu,
-                                Savana Purakambera,
-                                Bukit Tanau,
-                                Kampung Raja Prailiu
-                            </p>
-                        </div>
-                    </SwiperSlide>
-
-                    <SwiperSlide>
-                        <div className="tst-item bg-[#191919] h-[450px] flex flex-col justify-center rounded-xl py-[50px] lg:py-[90px] px-[2%] sm:px-[8%] lg:px-[12%]">
-                            <div className="tst-user -flex items-start mb-3">
-                                <Image 
-                                    src={User}
-                                    width={30}
-                                    height={30}
-                                    alt="User"
-                                    className="rounded-full"/>
-                            </div>
-                            <div>
-                                <h4 className="unbounded-font text-white font-semibold mb-4">Paket 5 Days 4 Night</h4>
-                            </div>
-                            <p className="text-[#ffffff91]">
-                                Pantai Mandorak,
-                                Danau Weikuri,
-                                Kampung adat Praijing,
-                                Air Terjun Lapopo,
-                                Bukit Warinding,
-                                Bukit Hiliwuku,
-                                Air Terjun Waimarang,
-                                Pantai Weilakiri,
-                                Air terjun Tanggedu,
-                                Savana Purakambera,
-                                Bukit Tanau,
-                                Kampung Raja Prailiu
-                            </p>
-                        </div>
-                    </SwiperSlide>
-
-                    <SwiperSlide>
-                        <div className="tst-item bg-[#191919] h-[450px] flex flex-col justify-center rounded-xl py-[50px] lg:py-[90px] px-[2%] sm:px-[8%] lg:px-[12%]">
-                            <div className="tst-user -flex items-start mb-3">
-                                <Image 
-                                    src={User}
-                                    width={30}
-                                    height={30}
-                                    alt="User"
-                                    className="rounded-full"/>
-                            </div>
-                            <div>
-                                <h4 className="unbounded-font text-white font-semibold mb-4">Paket 6 Days 5 Night</h4>
-                            </div>
-                            <p className="text-[#ffffff91]">
-                                Pantai Mandorak, 
-                                Danau Weikuri, 
-                                Kampung Ratenggaro, 
-                                Air Terjun Weikucara, 
-                                Kampung adat Praijing, 
-                                Air Terjun Lapopo, 
-                                Pantai Watumbela, 
-                                Bukit Warinding, 
-                                Bukit Hiliwuku, 
-                                Air Terjun Waimarang, 
-                                Pantai Weilakiri, 
-                                Air terjun Tanggedu, 
-                                Savana Purakambera, 
-                                Bukit Tanau, 
-                                Kampung Raja Prailiu
-                            </p>
-                        </div>
-                    </SwiperSlide>
-
-                    <SwiperSlide>
-                        <div className="tst-item bg-[#191919] h-[450px] flex flex-col justify-center rounded-xl py-[50px] lg:py-[90px] px-[2%] sm:px-[8%] lg:px-[12%]">
-                            <div className="tst-user -flex items-start mb-3">
-                                <Image 
-                                    src={User}
-                                    width={30}
-                                    height={30}
-                                    alt="User"
-                                    className="rounded-full"/>
-                            </div>
-                            <div>
-                                <h4 className="unbounded-font text-white font-semibold mb-4">Paket 7 Days 6 Night</h4>
-                            </div>
-                            <p className="text-[#ffffff91]">
-                                Pantai Mandorak, 
-                                Danau Weikuri, 
-                                Kampung Ratenggaro, 
-                                Air Terjun Weikucara, 
-                                Air Terjun Lokomboro, 
-                                Kampung Adat Praijing, 
-                                Air Terjun Lapopo, 
-                                Pantai Watumbela, 
-                                Bukit Warinding, 
-                                Bukit Hiliwuku, 
-                                Air Terjun Waimarang, 
-                                Pantai Weilakiri, 
-                                Air Terjun Tanggedu, 
-                                Savana Purakambera, 
-                                Bukit Tanau, 
-                                Watu Parunu, 
-                                Kampung Pau, 
-                                Kampung Raja Prailiu 
-                            </p>
-                        </div>
-                    </SwiperSlide>
+                 <Swiper
+                                          spaceBetween={20}
+                                          slidesPerView={3}
+                                          breakpoints={{
+                                              1199: {slidesPerView: 2},
+                                              767: {slidesPerView: 2},
+                                              220: {slidesPerView: 1},
+                                          }}
+                                          loop={true}
+                                          className="cursor-pointer"
+                                      >
+                                          <SwiperSlide>
+                                              <div className="tst-item bg-[#191919] h-[350px] flex flex-col justify-start rounded-xl py-[50px] lg:py-[90px] px-[2%] sm:px-[8%] lg:px-[12%]">
+                                                  <div className="tst-user -flex items-start mb-3">
+                                                      <Image 
+                                                          src={User}
+                                                          width={30}
+                                                          height={30}
+                                                          alt="User"
+                                                          className="rounded-full"/>
+                                                  </div>
+                                                  <div>
+                                                      <h4 className="unbounded-font text-white font-semibold mb-4">Paket 3 Days 2 Night</h4>
+                                                  </div>
+                                                  <p className="text-[#ffffff91]">
+                                                      Pantai Watumbela,
+                                                      Bukit Warinding,
+                                                      Bukit Hiliwuku,
+                                                      Air Terjun Waimarang,
+                                                      Pantai Weilakiri,
+                                                      Kampung Raja Prailiu
+                                                  </p>
+                                              </div>
+                                          </SwiperSlide>
+                      
+                                          <SwiperSlide>
+                                              <div className="tst-item bg-[#191919] h-[350px] flex flex-col justify-center rounded-xl py-[50px] lg:py-[90px] px-[2%] sm:px-[8%] lg:px-[12%]">
+                                                  <div className="tst-user -flex items-start mb-3">
+                                                      <Image 
+                                                          src={User}
+                                                          width={30}
+                                                          height={30}
+                                                          alt="User"
+                                                          className="rounded-full"/>
+                                                  </div>
+                                                  <div>
+                                                      <h4 className="unbounded-font text-white font-semibold mb-4">Paket 4 Days 3 Night</h4>
+                                                  </div>
+                                                  <p className="text-[#ffffff91]">
+                                                      Pantai Watumbela,
+                                                      Bukit Warinding,
+                                                      Bukit Hiliwuku,
+                                                      Air Terjun Waimarang,
+                                                      Pantai Weilakiri
+                                                      Air terjun Tanggedu,
+                                                      Savana Purakambera,
+                                                      Bukit Tanau,
+                                                      Kampung Raja Prailiu
+                                                  </p>
+                                              </div>
+                                          </SwiperSlide>
+                      
+                                          <SwiperSlide>
+                                              <div className="tst-item bg-[#191919] h-[350px] flex flex-col justify-center rounded-xl py-[50px] lg:py-[90px] px-[2%] sm:px-[8%] lg:px-[12%]">
+                                                  <div className="tst-user -flex items-start mb-3">
+                                                      <Image 
+                                                          src={User}
+                                                          width={30}
+                                                          height={30}
+                                                          alt="User"
+                                                          className="rounded-full"/>
+                                                  </div>
+                                                  <div>
+                                                      <h4 className="unbounded-font text-white font-semibold mb-4">Paket 5 Days 4 Night</h4>
+                                                  </div>
+                                                  <p className="text-[#ffffff91]">
+                                                      Pantai Mandorak,
+                                                      Danau Weikuri,
+                                                      Kampung adat Praijing,
+                                                      Air Terjun Lapopo,
+                                                      Bukit Warinding,
+                                                      Bukit Hiliwuku,
+                                                      Air Terjun Waimarang,
+                                                      Pantai Weilakiri,
+                                                      Air terjun Tanggedu,
+                                                      Savana Purakambera,
+                                                      Bukit Tanau,
+                                                      Kampung Raja Prailiu
+                                                  </p>
+                                              </div>
+                                          </SwiperSlide>
+                      
+                                          <SwiperSlide>
+                                              <div className="tst-item bg-[#191919] h-[350px] flex flex-col justify-center rounded-xl py-[50px] lg:py-[90px] px-[2%] sm:px-[8%] lg:px-[12%]">
+                                                  <div className="tst-user -flex items-start mb-3">
+                                                      <Image 
+                                                          src={User}
+                                                          width={30}
+                                                          height={30}
+                                                          alt="User"
+                                                          className="rounded-full"/>
+                                                  </div>
+                                                  <div>
+                                                      <h4 className="unbounded-font text-white font-semibold mb-4">Paket 6 Days 5 Night</h4>
+                                                  </div>
+                                                  <p className="text-[#ffffff91]">
+                                                      Pantai Mandorak, 
+                                                      Danau Weikuri, 
+                                                      Kampung Ratenggaro, 
+                                                      Air Terjun Weikucara, 
+                                                      Kampung adat Praijing, 
+                                                      Air Terjun Lapopo, 
+                                                      Pantai Watumbela, 
+                                                      Bukit Warinding, 
+                                                      Bukit Hiliwuku, 
+                                                      Air Terjun Waimarang, 
+                                                      Pantai Weilakiri, 
+                                                      Air terjun Tanggedu, 
+                                                      Savana Purakambera, 
+                                                      Bukit Tanau, 
+                                                      Kampung Raja Prailiu
+                                                  </p>
+                                              </div>
+                                          </SwiperSlide>
+                      
+                                          <SwiperSlide>
+                                              <div className="tst-item bg-[#191919] h-[350px] flex flex-col justify-center rounded-xl py-[50px] lg:py-[90px] px-[2%] sm:px-[8%] lg:px-[12%]">
+                                                  <div className="tst-user -flex items-start mb-3">
+                                                      <Image 
+                                                          src={User}
+                                                          width={30}
+                                                          height={30}
+                                                          alt="User"
+                                                          className="rounded-full"/>
+                                                  </div>
+                                                  <div>
+                                                      <h4 className="unbounded-font text-white font-semibold mb-4">Paket 7 Days 6 Night</h4>
+                                                  </div>
+                                                  <p className="text-[#ffffff91]">
+                                                      Pantai Mandorak, 
+                                                      Danau Weikuri, 
+                                                      Kampung Ratenggaro, 
+                                                      Air Terjun Weikucara, 
+                                                      Air Terjun Lokomboro, 
+                                                      Kampung Adat Praijing, 
+                                                      Air Terjun Lapopo, 
+                                                      Pantai Watumbela, 
+                                                      Bukit Warinding, 
+                                                      Bukit Hiliwuku, 
+                                                      Air Terjun Waimarang, 
+                                                      Pantai Weilakiri, 
+                                                      Air Terjun Tanggedu, 
+                                                      Savana Purakambera, 
+                                                      Bukit Tanau, 
+                                                      Watu Parunu, 
+                                                      Kampung Pau, 
+                                                      Kampung Raja Prailiu 
+                                                  </p>
+                                              </div>
+                                          </SwiperSlide>
                 </Swiper>
             </div>
 
@@ -365,9 +366,7 @@ export default function Index() {
                            Nikmati Tur & Pengalaman Berkualitas Terbaik Kami
                         </p>
                         <button className="btn bg-white group text-[#193555] hover:bg-[#193555] font-bold px-6 w-auto py-4 rounded-full cursor-pointer transition-colors duration-300 mt-5">
-                            <a href="#" className="unbounded-font text-sm xl:text-md uppercase group-hover:text-white transition-colors duration-300 tracking-wider">
-                            Learn More
-                            </a>
+                            <Link href="/Faq" className="unbounded-font text-sm xl:text-md uppercase group-hover:text-white transition-colors duration-300 tracking-wider">Learn More</Link>
                         </button>
                     </div>
                 </div>
