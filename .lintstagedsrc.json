@@ -1,3 +1,4 @@
 {
-    "*.ts": ["eslint --fix"]
+    "*.js": ["eslint --fix"],
+    "*.jsx": ["eslint --fix"]
 }
