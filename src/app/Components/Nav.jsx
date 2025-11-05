@@ -13,9 +13,6 @@ import { faXTwitter } from "@fortawesome/free-brands-svg-icons/faXTwitter";
 import { useEffect, useState } from "react";
 import Link from "next/link";
 
-import Image from "next/image";
-import About1 from "../../../public/Images/logo3.png"
-
 
 export default function Nav() {
     const [isOpen , setIsOpen] = useState(false);
